@@ -1,0 +1,96 @@
+.container-fluid {
+  max-width: 1500px;
+}
+/* Nav*/
+nav {
+  border-bottom: 1px solid #cfcfcf;
+}
+a {
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+@media (max-width: 993px) {
+#navbarDropdown {
+  padding-left: 8px;
+}
+}
+/* Row 1 */
+.btn-danger {
+  background: linear-gradient(to right, #e63629 5%, #d61e80 100%);
+}
+
+/* Social Follow */
+@media (min-width: 992px) {
+  #socialFollow {
+    border-left: 1px solid gray;
+  }
+}
+#follow-list li {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 30px;
+}
+/* Latest News */
+.main-container{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#quartlet {
+  border-radius: 8px;
+  width: 10vmax;
+  float: left;
+  object-fit: cover;
+  height: 85px;
+  width: 85px;
+} 
+@media (min-width: 992px) {
+  #quartlet {
+    height: 100px;
+    width: 100px;
+  }
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 20px;
+}
+#date {
+  font-size: 14px;
+  font-weight: lighter;
+  color: gray;
+}
+#meetHosts img {
+  margin-bottom: 10px;
+}
+/* Categories Section */
+@media (min-width: 767px) {
+  #categoriesMain img {
+    height: 150px;
+}
+}
+@media (min-width:991px) {
+  #categoriesMain img {
+    height: auto;
+  }
+}
+h6 {
+  text-transform: uppercase;
+}
+#footerCol li {
+  padding: 4px;
+}
+#footerCol a {
+  color:gray;
+}
+#footerCol a:hover {
+  color: black;
+}
+@media (max-width: 767px) {
+  #footerCol {
+    border-bottom: 1px solid lightgray;
+  }
+}
